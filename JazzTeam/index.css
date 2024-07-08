@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: "Poppins-Black";
+    src: url('./fonts/Poppins-Black.ttf');
+}
+div{
+    width: 320px;
+    height: 427px;
+    background-color: #FFEEC1;
+    clip-path: border-box;
+    position: relative;
+    margin-top: 17px;
+}
+h2{
+    font-family: Poppins;
+    font-size: 10px;
+    /* font-size: 20px; */
+    font-weight: 600;
+    line-height: 21.08px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 51.02px;
+    margin-top: 0px;
+    position: relative;
+    top: -65px;
+    transition-duration: 5.s;
+}
+h1{
+    position: relative;
+    z-index: 2;
+    font-family: Poppins-Black;
+    font-size: 27.92px;
+    font-weight: 800;
+    line-height: 28.68px;
+    text-align: center;
+    margin-top: 5.04px;
+    margin-bottom: revert;
+    margin-left: -530px;
+}
+.image{
+    position: absolute;
+}
+.image:nth-child(3){
+    margin-top: 5.04px;
+    z-index: 1;
+    transform: rotate(-12.76deg);
+    right: 124.13px;
+}
+.image:nth-child(4){
+    width: 251.28px;
+    height: 213.51px;
+    top: 283px;
+    left: -31px;
+    z-index: 0;
+}
+.image:nth-child(5){
+    top: 278.31px;
+    left: 200.69px;
+    z-index: 1;
+}
+.image:nth-child(6){
+    top: 128.56px;
+    left: 124.36px;
+    z-index: 2;
+    transform: rotate(6.43deg);
+}
